@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Žaidimas 2048</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Žaidimas 2048</h1>
+      <div class="score-board">
+        <div class="score">Taškai: <span id="score"> 0</span></div>
+        <div id="record-container">Rekordas: <span id="record">0</span></div>
+      </div>
+      <div class="grid" id="grid">
+        <!-- Tinklelis bus padarytas pe JS -->
+      </div>
+      <button id="restartButton">Pradėti iš naujo</button>
+      <p>
+        <span>Žaidimo taisyklės:</span> Spausk rodiklytes, kad judėtų kaladėlės.
+        Vienodos kaladėlės susijungia. Žaidimas laimimas, kai pasirodo 2048
+        kaladėlė.
+      </p>
+    </div>
+  </body>
+</html>
